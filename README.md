@@ -1,4 +1,3 @@
-# Stocks_Tracker
+# Stocks_Tracker_Kotlin
 Progetto del corso di Programmazione di Dispositivi Mobili
-Gruppo 844853_Massa
-Componenti del gruppo: Massa Alessandro 844853
+Massa Alessandro 844853
