@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "706087233482",
+    "firebase_url": "https://stocks-tracker-unimib-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "stocks-tracker-unimib",
+    "storage_bucket": "stocks-tracker-unimib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706087233482:android:fb9abac62f6d85e7505133",
+        "android_client_info": {
+          "package_name": "com.massa844853.stockstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706087233482-siec0uhb5vr4epoqb69usch1thsmfuav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUaEvRDIb9dOPwVFzXI0ahHkjY6TiTqNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706087233482-siec0uhb5vr4epoqb69usch1thsmfuav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

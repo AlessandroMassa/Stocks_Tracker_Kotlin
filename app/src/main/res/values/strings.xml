@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stocks Tracker</string>
+    <string name="news_name">NEWS</string>
+    <string name="search_name">SEARCH</string>
+    <string name="chat_name">CHAT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_stock">Search stock</string>
+    <string name="error_data">Data not available</string>
+    <string name="statisticValues">STATISTICS</string>
+    <string name="error_news">Unable download news</string>
+    <string name="from_email_address">Email address</string>
+    <string name="from_password">Password</string>
+    <string name="stocks">Stocks</string>
+    <string name="tracker">Tracker</string>
+    <string name="email_signin">Sign in with email</string>
+    <string name="google_signin">Sign in with Google</string>
+    <string name="create_account">Don\'t you have an account? Sign in</string>
+    <string name="skip">Skip</string>
+    <string name="email_signup">Sign in with email</string>
+    <string name="username">Username</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="error_search">Unable download data</string>
+</resources>

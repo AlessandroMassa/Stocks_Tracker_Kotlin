@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundblue"
+    tools:context=".ui.ChatFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/viewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background_content_top"
+            app1:layout_constraintBottom_toTopOf="@id/layoutSend"
+            app1:layout_constraintStart_toStartOf="parent"
+            app1:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="68dp"
+            android:orientation="vertical"
+            app1:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app1:layout_constraintBottom_toBottomOf="parent"
+            app1:layout_constraintEnd_toEndOf="parent"
+            app1:layout_constraintStart_toStartOf="parent"
+            app1:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="6dp"/>
+
+
+        <FrameLayout
+            android:id="@+id/layoutSend"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/background_chat_input"
+            app1:layout_constraintBottom_toBottomOf="parent"
+            app1:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/buttonSend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/background_chat_input"
+                android:backgroundTint="@color/blue"
+                android:padding="8dp"
+                android:src="@drawable/ic_send"
+                app1:tint="@color/white" />
+
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/inputMessage"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/background_chat_input"
+            android:hint="@string/type_a_message"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey"
+            app1:layout_constraintBottom_toBottomOf="parent"
+            app1:layout_constraintEnd_toStartOf="@id/layoutSend"
+            app1:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
